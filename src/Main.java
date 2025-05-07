@@ -9,10 +9,6 @@ public class Main {
         MazeSolver newMazeSolver = new MazeSolver();
         String[][]maze = getMaze("src/file");
         newMazeSolver.solveMaze(maze);
-
-
-
-
     }
 
     public static String[][] getMaze(String fileName) {
